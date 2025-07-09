@@ -32,3 +32,29 @@ O pré-processamento foi efetuado nas seguintes etapas:
 * Normalização das imagens para o intervalo 0-1
 
 O processo completo está documentado no arquivo [cnn-model.ipynb](https://github.com/queirozPedro/Classificacao-de-Celulas-Medula-Ossea/blob/main/cnn-model.ipynb)
+
+
+## Executar o Projeto
+
+Passo a passo usando Visual Studio Code
+
+### Windows
+
+1 - Crie um Ambiente Virtual
+```bash
+python -m venv venv
+```
+
+2 - Ative o Ambiente Virtual
+```bash
+venv\Scrips\activate
+```
+
+3 - Instale os requeriments
+```bash
+pip install -r requeriments.txt
+```
+
+4 - Instale a extenção do [Jupyter Notebook](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) no Visual Studio Code
+
+5 - Execute o projeto
