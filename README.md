@@ -36,25 +36,36 @@ O processo completo está documentado no arquivo [cnn-model.ipynb](https://githu
 
 ## Executar o Projeto
 
-Passo a passo usando Visual Studio Code
+<strong>1 - Crie um Ambiente Virtual</strong>
 
-### Windows
-
-1 - Crie um Ambiente Virtual
-```bash
+<strong>Windows</strong>
+~~~
 python -m venv venv
-```
+~~~
 
-2 - Ative o Ambiente Virtual
-```bash
-venv\Scrips\activate
-```
+<strong>Linux</strong>
+~~~
+python3 -m venv venv
+~~~
 
-3 - Instale os requeriments
-```bash
-pip install -r requeriments.txt
-```
+<strong>2 - Ative o Ambiente Virtual</strong>
 
-4 - Instale a extenção do [Jupyter Notebook](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) no Visual Studio Code
+<strong>Windows</strong>
+~~~
+venv\Scripts\activate
+~~~
 
-5 - Execute o projeto
+<strong>Linux</strong>
+~~~
+source venv/bin/activate
+~~~
+
+<strong>3 - Instale as dependências</strong>
+
+~~~
+pip install -r requirements.txt
+~~~
+
+<strong>4 - Instale a extenção do [Jupyter Notebook](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) no Visual Studio Code</strong>
+
+<strong>5 - Execute o projeto</strong>
